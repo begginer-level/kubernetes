@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-   name: development
-   lables:
-   project: development
-   env: dev
+   name: development  #this is the name we will getting after running get namespaces 
+   labels:
+    project: development
+    env: dev
